@@ -58,3 +58,20 @@ ul{
     flex: 1;
     margin-left: 20px;
 }
+
+.btn{
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #262626;
+    color: #fff;
+    font-size: 15px;
+    transition: 0.3s ease-in-out;
+}
+
+.btn:hover{
+    opacity: 0.9;
+    
+}
