@@ -96,3 +96,16 @@ ul{
 .showcase .btn{
     margin-top: 15px;
 }
+
+.home-cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.home-cards img{
+    width: 100%;
+}
+
+.home-cards > div:hover{
+    opacity: 0.9;
+}
